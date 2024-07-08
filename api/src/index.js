@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express')
 const app = express();
 const cors = require('cors');
 require('./database');
@@ -9,5 +9,5 @@ app.use(cors());
 
 app.use('/api', require('./routes/index'));
 
-app.listen(3001);
-console.log('Servidor iniciado', 3001)
+app.listen(3100);
+console.log('servidor iniciado', 3100);
